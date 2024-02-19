@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html> <!--<a> tag defines a hyberlink-->
+    <head>
+        <style>
+            body{
+                text-align: center;
+                font-size: 125%;
+                font-family: Gill Sans;
+                color: green;
+                }
+        </style>
+        <title>Work in progress!</title>
+    </head>
+    <body style="background-color: pink;">
+        <h2 style="color: yellow;">Absolute URLs</h2>
+        <a href="URL">some text and a broken URL!</a> <!--html hyperlink syntax-->
+        <br>
+        <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> 
+        <br>
+        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools.com in a new tab!</a> <!--target attribute controls where the link opens to-->
+        <!--"_self" opens in same window/tab, "_blank" opens a new window/tab, "_parent" opens in the parent frame, and "_top" opens the doc in the full body of the window-->
+    <!--Previous URL examples are called absolute URL-->
+    
+    <h2>Broken Relative URLs:</h2> <!--Link to within the website but is missing "https://"-->
+    <p><a href="html_images.asp">HTML Images</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
+    </body>
+
+    <H2>A broken Image Link</H2>
+    <a href="default.asp">
+        <img src="smiley.gif" alt="HTML turtorial" style="width: 42px;height: 42px;">
+    </a>
+    <br>
+        <a href="mailto:someone@example.com">Send an email to a fake email!</a>
+        <br> <!--Some JavaScript below-->
+        <button onclick="document.location='defalut.asp'" title="This button does not work!">HTMl Tutorial</button> <!--"title" creates a tooltip-->
+</html>
+<!--By default links that are unvisited remain blue and underlined
+    Visited links are purple and underlined
+    and an active link is underlined and red-->
