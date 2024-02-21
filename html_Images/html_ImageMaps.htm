@@ -9,7 +9,31 @@
         <img class="image-map" src="/Images/fruit.jpg" alt="Some Fruit" usemap="#image-map">
 
         <map name="image-map">
-            <area alt="Orange" title="Orange" target="_blank" href="orange.htm" coords="111,115,61" shape="circle">
+            <area alt="Orange" title="Orange" target="_blank" href="orange.htm" coords="111,115,61" shape="circle" onclick="myFunction()">
+
+            <script> // This is how you make a JavaScript comment and how to add a JavaScript function!
+                function myFunction(){
+                    alert("You clicked the coffee cup!")
+                }
+            </script>
         </map>        
     </body>
 </html>
+<!--
+    Various area shapes for the map element: (coordinate values are in pixels)
+    Rectangle - shape="rect" two pairs of coordinates 
+    ex: 33(from the left margin), 44(from the top margin)
+        270(from the left margin), 350(from the top margin)
+    with this you wanna create an rectangle area by marking the boundaries with the two point pairs
+    <area shape="rect" coords="33, 44, 270, 350" href="computer.htm">
+    
+    Circle - shape="circle" first locate the coordinates of the center of the circle
+    ex: 337(center-x value) and 300(center-y value)
+        then specify the radius of the circle, 44 
+    <area shape="circle" coords="337, 300, 44" href="coffe.htm">
+
+    Poly - shape="poly" conatins several coordinate point pairs, like connecting dots to create the object area map
+    map the object by locating the x and y coordinates of various points on the objects edges
+    <area shape="poly" coords="140,121,181,116,204,222,191,270,etc." href="croissant.htm">
+-->
+<!--Image map area shifts depending on window size :(-->
