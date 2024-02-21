@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!--HTML Images Syntax: <img src="URL" alt="alternatetext"-->
+<html>
+    <head>
+        <title>Images</title>
+        <link rel="stylesheet" href="imageCSS.css"> <!--When importing a CSS styles you need to include the rel="stylesheet"-->
+    </head>
+    <body>
+        <h1 class="unique-header">Image Gallery</h1>
+        <!--<img> tag is an empty tag that reserves a holding space for an image-->
+        <!--Requires a the "src" attribute for source of image and "alt" for alternate text if image fails to load-->
+        <h2>Image Shrinking:</h2>
+        <img src="puppyDawg.jpg" alt="Juts a little dawg" style="width:300px;height:400px;"><!--Internal CSS Styles-->
+        <h2>Making  the image larger:</h2>
+        <img src="flag.jpg" alt="America Baby!" style="width: 125%;height: 150%;">
+        <img src="img_chania.jpg" alt="Flowers in Chania (replacement text)">
+        <br>
+        <img src="puppyDawg.jpg" alt="Juts a little dawg"> <!--External CSS Styles-->
+        <img src="/Images/TheCat.jpg" alt="Oh yeah!"> <!--Image has to be a subdirectory of the common root folder of the html file-->
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" title="I have an external file source"> <!--How source an image from another URL-->
+        <!--HTML supports gifs-->
+            <!--Structure of how to use an image as a link-->
+            <h2>Click the image below:</h2>
+            <p>Don't be afraid...</p>
+            <a href="https://www.youtube.com/">
+                <img src="..\Images\new-youtube-logo.jpg" alt="W3Schools.com"> <!--How source an image from another URL-->
+            </a>
+        <h2>The Image is floating on the right side!</h2>
+        <p><img class="image-float" src="/Images/peter_pan.png" alt="Peter freakin Pan!">
+            The visual presentation of our content is enhanced as we strategically position the image to gracefully float to the right of the accompanying text. 
+            This deliberate choice not only adds an aesthetically pleasing touch to our layout but also optimizes the use of available space. 
+            By employing the CSS 'float' property, the image seamlessly integrates with the textual content, creating a harmonious visual flow that captivates the reader's attention. 
+            This thoughtful arrangement allows for a dynamic and engaging design, ensuring that both the image and the text complement each other cohesively.        
+        </p>
+    </body>
+</html>

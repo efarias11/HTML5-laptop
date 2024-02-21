@@ -1,0 +1,41 @@
+body {
+    background-color: blueviolet;
+    font-size: larger;
+    color: whitesmoke;
+}
+img {
+    width: 25%;
+    height: 25%;
+    margin: 20px;
+}
+
+.unique-header{ /*Can create classes in the html file and "import" it to create unique styles*/
+    text-decoration: underline;
+    text-align: center;
+    font-size: 300%;
+    color: cyan;
+}
+p{
+    font-size: 125%;
+    font-family: Arial;
+}
+.image-float{
+    float: right;
+    width: 100px;
+    height: 100px;
+    border: 5px;
+    padding: 10px;
+}
+.image-map{
+    width: 75%;
+    height: 75%;
+    display: block; /*Need to treat image like a block to adjust margin to center*/
+    margin: auto; /*Adjust margin to the center of the image*/
+}
+.orange-talk{
+    width: 65%;
+    height: 65%;
+    float: right;
+    display: block;
+    margin: auto;
+}

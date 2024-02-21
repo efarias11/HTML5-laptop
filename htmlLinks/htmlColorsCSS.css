@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: paleturquoise;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Arial;
+    font-size: 125%;
+    border: 2px solid wheat;
+    margin: 50px;
+    padding: 50px; 
+}
+a:link{ /*Link styles in CSS*/
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{ 
+    color:pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+    background-color:transparent;
+    text-decoration: underline;
+}
+
+a:active{
+    color:yellow;
+    background-color: transparent;
+    text-decoration:underline;
+}
+
+a:link, a:visited{ /*Creates an "interactable" button for URLs*/
+    background-color: purple;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: red;
+}
