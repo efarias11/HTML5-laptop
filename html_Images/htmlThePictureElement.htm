@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pictures!</title>
+        <link rel="stylesheet" href="newImageCSS.css">
+    </head>
+    <body>
+        <picture> <!--Source images allow you to implement images depending on the window size-->
+            <source srcset="puppyDawg.jpg" media="(min-width:651px)"> <!--If one tag line triggers it ignores the other tags-->
+            <source srcset="flag.jpg" media="(min-width: 650px)">
+            <img src="ronnieCop.jpg" alt="light weight!">
+        </picture>
+    </body>
+</html>

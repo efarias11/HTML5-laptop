@@ -1,0 +1,9 @@
+.background-image{
+    background-image: url('ronnieCop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img{
+    width: auto;
+}
